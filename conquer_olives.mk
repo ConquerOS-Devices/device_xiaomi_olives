@@ -9,9 +9,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some common ssos stuff.
+# Inherit some common ConquerOS stuff.
 $(call inherit-product, vendor/conquer/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 720
+CONQUER_BUILD_TYPE := OFFICIAL
 
 # Inherit from olives device
 $(call inherit-product, device/xiaomi/olives/device.mk)
