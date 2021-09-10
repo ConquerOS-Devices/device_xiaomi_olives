@@ -12,10 +12,8 @@
         "target_path":   "vendor/xiaomi/sdm439-common"
     },
     {
-        "remote":        "github",
-        "repository":    "silont-project/kernel_xiaomi_sdm439",
-        "target_path":   "kernel/xiaomi/sdm439",
-        "branch":        "a11/inline"
+        "repository":    "kernel_xiaomi_sdm439",
+        "target_path":   "kernel/xiaomi/sdm439"
     },
     {
         "remote":        "github",
@@ -40,6 +38,12 @@
         "repository":    "silont-project/aarch64-elf-gcc",
         "target_path":   "prebuilts/gcc/linux-x86/aarch64/aarch64-elf",
         "branch":        "arm64/11"
+    },
+    {
+        "remote":        "github",
+        "repository":    "silont-project/arm-eabi-gcc",
+        "target_path":   "prebuilts/gcc/linux-x86/arm/arm-eabi",
+        "branch":        "arm/11"
     },
     {
         "remote":        "github",
