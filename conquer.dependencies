@@ -50,5 +50,11 @@
         "repository":    "LineageOS/android_external_ant-wireless_antradio-library",
         "target_path":   "external/ant-wireless/antradio-library",
         "branch":        "lineage-18.1"
+    },
+    {
+        "remote":        "github",
+        "repository":    "Chuck439/vendor_MiuiCamera",
+        "target_path":   "vendor/miuicamera",
+        "branch":        "eleven"
     }
 ]
